@@ -8,7 +8,7 @@ nltk-3.8.1
 requests-2.30.0
 pytz-2023.3
 
-KURULUM
+KURULUM!
 Sanal alan oluşturma:
 Tercihen conda ile bir sanal alan oluşturabilirsiniz:.
 
@@ -16,7 +16,7 @@ Tercihen conda ile bir sanal alan oluşturabilirsiniz:.
 conda create -n chatbot python=3.8
 conda activate chatbot
 ````
-Aşağıdaki komutlarla depoyu klonlayın, bağımlılıkları yükleyin ve  model verillerini yükleyin.
+Aşağıdaki komutlarla repoyu klonlayın, bağımlılıkları yükleyin ve  model verillerini yükleyin.
 ````bash
 git clone https://github.com/matrixportal/chatbot.git
 cd chatbot
@@ -28,14 +28,17 @@ Chatbotla komut satırında sohbet etmek için aşağıdaki komutu kullanabilirs
 python chatbot.py
 ````
 
-Chatbotla web sayfasından sohbet etmek için aşağıdaki nodejs komutlarını kullanabilirsiniz:
+Web sayfasındaki sobet arayüzüne ulaşmak için önce tek seferliğine aşağıdaki komutla modejs modüllerini yükleyin:
 ````bash
 npm i
+````
+Artık istediğiniz zaman sadece aşağıdaki komutu kullanarak Chatbot'u  başlatabilirsiniz:
+````bash
 node chatbot.js
 ````
 
-Chatbotla sohbete başlamak için aşağıdaki adresi tarayıcıda açın:
-http://localhost:5000/
+Chatbotla sohbete başlamak için http://localhost:5000/ adresini tarayıcıda açın:
+
 
 Veritabanı oluşturma:
 intents.txt dosyası chatbot'un veritabanı intents.json dosyasını hazırlamayı kolaylaştırmak için örnekteki  gibi bir intents.txt dosyasını cep telefonunuzda bir not defterinde oluşturabilirsiniz.
