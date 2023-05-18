@@ -12,17 +12,19 @@ KURULUM
 Sanal alan oluşturma:
 Tercihen conda ile bir sanal alan oluşturabilirsiniz:.
 
-
+````bash
 conda create -n chatbot python=3.8
 conda activate chatbot
 ````
-````python
+Aşağıdaki komutlarla depoyu klonlayın, bağımlılıkları yükleyin ve  model verillerini yükleyin.
+````bash
 git clone https://github.com/matrixportal/chatbot.git
 cd chatbot
+python pip install -r requirements.txt
 python train.py
 ````
 Chatbotla komut satırında sohbet etmek için aşağıdaki komutu kullanabilirsiniz:
-````python
+````bash
 python chatbot.py
 ````
 
