@@ -12,7 +12,7 @@ KURULUM
 Sanal alan oluşturma:
 Tercihen conda ile bir sanal alan oluşturabilirsiniz:.
 
-````python
+
 conda create -n chatbot python=3.8
 conda activate chatbot
 ````
@@ -26,11 +26,11 @@ Chatbotla komut satırında sohbet etmek için aşağıdaki komutu kullanabilirs
 python chatbot.py
 ````
 
-#bash
 Chatbotla web sayfasından sohbet etmek için aşağıdaki nodejs komutlarını kullanabilirsiniz:
+````bash
 npm i
 node chatbot.js
-
+````
 
 Chatbotla sohbete başlamak için aşağıdaki adresi tarayıcıda açın:
 http://localhost:5000/
