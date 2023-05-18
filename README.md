@@ -43,9 +43,9 @@ Chatbotla sohbete başlamak için http://localhost:5000/ adresini tarayıcıda a
 Veritabanı oluşturma:
 intents.txt dosyası chatbot'un veritabanı intents.json dosyasını hazırlamayı kolaylaştırmak için örnekteki  gibi bir intents.txt dosyasını cep telefonunuzda bir not defterinde oluşturabilirsiniz.
 
-K: (intensts.json dosyasında tag
-U: (intensts.json dosyasında patterns)
-A: (intensts.json dosyasında responses)'i ı temsil eder.)
+- K: (intensts.json dosyasında tag
+- U: (intensts.json dosyasında patterns)
+- A: (intensts.json dosyasında responses)'i ı temsil eder.)
 
 Yararlanılan kaynaklar:
 - https://github.com/patrickloeber/pytorch-chatbot
