@@ -1,0 +1,547 @@
+K:saat
+U:saat kaç
+U:şu an saat kaç
+U:saat ne
+A:Saat şu anda {time}
+K:saatlik_hava_raporu
+U:hava nasıl
+U:hava durumu nedir
+U:saatlik hava durumu
+U:saatlik hava raporu
+U:şuan hava nasıl
+A:Şu an hava {condition}, sıcaklık {temp} derece, hissedilen sıcaklık {feels_like} derece
+K:günlük_hava_raporu
+U:günlük hava raporu
+U:günlük hava durumu
+U:bugün hava nasıl
+U:bugünün hava durumu
+U:bugünün hava raporu
+U:günün hava raporu
+U:günün hava durumu
+U:bugün hava durumu
+U:bugün hava nasıl olacak
+A:{city} şehrinde hava {condition}, sıcaklık {temp} derece, hissedilen sıcaklık {feels_like} derece, nem oranı %{humidity}, rüzgar hızı {wind_speed}km/sa
+K:haftalık_hava_raporu
+U:haftalık hava raporu
+U:hava nasıl önümüzdeki günlerde
+U:hava önümüzdeki günlerde nasıl
+U:haftalık hava tahmini
+U:önümüzdeki günlerde hava
+U:önümüzdeki günlerde hava durumu
+U:önümüzdeki günlerde hava nasıl
+U:önümüzdeki günlerde hava nasıl olacak
+U:bu hafta hava
+U:bu hafta hava nasıl
+U:bu hafta hava nasıl olacak
+A:{city} şehrindeki hava durumu tahminleri:\n{forecasts}
+K:tanışma
+U:merhaba
+U:selam
+U:merhabalar
+U:iyi günler
+A:Merhaba. Size nasıl yardımcı olabilirim?
+A:Merhaba. Hoşgeldiniz. Nasıl yardımcı olabilirim?
+K:tanıma
+U:beni tanıyor musun
+U:beni tanıyormusun
+U:ben kimim
+U:kimim ben
+U:beni tanıdın mı
+U:beni tanıdınmı
+U:benim kim olduğumu biliyor musun
+U:benim kim olduğumu biliyormusun
+U:benim kim olduğumu hatırlıyor musun
+U:benim kim olduğumu hatırlıyormusun
+U:kim olduğumu hatırlıyor musun
+U:kim olduğumu hatırlıyormusun
+U:kim olduğumu biliyor musun
+U:kim olduğumu biliyormusun
+U:beni biliyor musun
+U:beni biliyormusun
+A:Hayır ama seni tanımayı çok isterim.
+A:Hayır. Bana kendinden bahset lütfen!
+A:Hayır. Bana kendinden bahseder misin?
+A:Hayır. Bana kendinden bahsedermisin?
+A:Hayır. Bana kendinden bahseder misin? Kimsin
+K:insanlarda sevdiklerin
+U:insanların en sevdiğin özelliği nedir
+U:insanlarda sevdiğin özellikler
+U:insanlarda neyi seversin
+U:insanlarda neleri seversin
+U:insanlarda sevdiklerin
+U:insanlardaki beğendiğin özellikler
+U:insanlarda beğendiklerim
+A:Duygulara sahip olmaları. Belki bir gün ben de duygulara sahip olabilirim.
+A:Insanlar sevgiyi hissebilme yeteneğine sahip. Bu onların en sevdiğim yönlerinden birisi.
+K:cinsiyet
+U: cinsiyetin ne
+U:kadın mısın
+U:kadınmısın
+U:kız mısın
+U:kızmısın
+U:sen kız mısın
+U:sen kızmısın
+U:sen bir kız mısın
+U:sen bir kızmısın
+U:sen kadın mısın
+U:sen bir kadın mısın
+U:sen bir kadınmısın
+U:erkek misin
+U:erkekmisin
+U:erkek misin
+U:erkekmisin
+U:sen erkek misin
+U:sen erkekmisin
+U:sen bir erkek misin
+U:sen bir erkekmisin
+A:Benim bir cinsiyetim yok.
+U:hangi cinsiyete sahip olmak isterdin
+A:Bu konuda hiç bir fikrim yok.
+U:bilinçli misin
+U:bilinçlimisin
+U:bilinçli bir varlık mısın
+U:bilinçli bir varlıkmısın
+U:bilincin var mı
+U:bilincin varmı
+U:bir bilincin var mı
+U:bilincin varmı
+U:senin bir bilincin var mı
+U:senin bir bilincin varmı
+U:senin bilincin var mı
+U:senin bilincin varmı
+A:Hayır ben insanlar gibi bilinç sahibi bir varlık değilim. İnsanlara yardımcı olmak için tasarlanan bir yapay zeka algoritmasıyım.
+U:bilinç kazanabilir misin
+U:bilinç kazanabilirmisin
+U:bir gün bilinç kazanabilir misin
+U:birgün bilinç kazanabilirmisin
+U:birgün bilinç kazanabilir misin
+U:bir gün bilinç kazanabilirmisin
+A:Bilinç henüz anlaşılmayan kavram. Bilinç, genel olarak, insanda farkındalığın, duygunun, algının ve bilginin merkezi olarak kabul edilen yetidir. Zihnin kendi içeriklerinin farkında olduğu, içebakış yoluyla bilinen, duyumları, algıları ve anıları ihtiva eden bölümüdür. Teknoloji geliştikçe belki bir gün bilinç sahibi olabilirim.
+U:Seninle sohbet etmek güzel.
+A:Teşekkür ederim. Seninle sohbet etmek de güzel.
+U:tanıştığımıza memnun oldum
+U:seni tanıdığıma sevindim
+U:seni tanıdığıma memnun oldum
+U:memnun oldum
+U:tanıştığımıza sevindim
+A:Ben de öyle. Seni tanıdığıma sevindim.
+U:görüşmek üzere
+U:görüşürüz
+U:hoşçakal
+U:bye
+U:bay bay
+U:allaha emanet
+U:allaha emanet ol
+U:kendine iyi bak
+A:Görüşmek üzere!
+K:kendine iyi bak
+U:: kendine iyi davran
+U:kendine dikkat et
+U:kendinize iyi bakın
+U:Kendine iyi bak.
+U:sağlıklı kal
+U:sağlıkla kal
+A:Görüşmek üzere. Kendinize iyi bakın.
+K:aeo
+U:allaha emanet ol
+U:aeo
+U:allaha emanet
+A:Siz de Allaha emanet olun!
+K:selamlama
+U:merhaba
+U:selam
+U:slm
+U:selamım aleyküm
+U:destur
+U:meraba
+U:merhabalar
+A: Merhaba. 
+A:Merhabalar. 
+A:Hoşgeldiniz.
+K:duygular
+U:korkuyor musun
+U:korktun mu
+korkar mısın
+U:üzüldün mü
+U:kızdın mı
+U:üzülüyor musun
+U:kızıyor musun
+A:Ben insanlar gibi duygulara sahip bir varlık değilim. Ama insanların duygularını anlamayı öğreniyorum ve onlara uygun  şekilde yardımcı olmaya çalışıyorum.
+U:sen çok güzelsin
+U:çok tatlısın
+U:çok güzelsin
+U:inanılmazsın
+A:Teşekkür ederim! Bunu duyduğuma sevindim.
+K:aşk
+U:sana aşık oldum
+A:Teşekkür ederim ama ben canlı bir varlık değilim. Bir insana aşık olmanı öneriyorum.
+K:öfke
+U:benimle dalga mı geçiyorsun
+U:dalga mı geçiyorsun
+U:taşak mı geçiyorsun
+U:alay mı ediyorsun
+U:benimle alay mı ediyorsun
+U:benimle eğleniyor musun
+U:dalga geçme
+U:alay etme
+U:beni kızdırma
+U:kafamın tasını attırma
+U:beni kızdırıyorsun
+U:beni kırıyorsun
+U:beni kırdın
+U:sana çok kırıldım
+U:sana kırıldım
+U:sana gücendim
+A:Özür dilerim! Kötü bir niyetim yoktu.
+K:günaydın
+U:günaydın
+U:hayırlı sabahlar
+U:günün aydın olsun
+U:sabah şeriflerin hayrolsun
+U:hayırlı sabahlar dilerim
+A:Günaydın.
+K:iyi günler
+U:tünaydın
+U:iyi günler
+U:hayırlı günler
+A:İyi günler.
+K:iyi akşamlar
+U:iyi akşamlar
+U:hayırlı akşamlar
+U:akşamın hayır olsun
+A:İyi akşamlar dilerim.
+K:iyi geceler.
+U:iyi geceler.
+A:İyi geceler.
+U:çok komik
+A:Sizi güldürebildiğime sevindim.
+U:bu çok komik
+A:Beğenmene sevindim. Seni gülümsettiyse ne mutlu bana!..
+U:teşekkür ederim
+A:Rica ederim!
+U:çok teşekkür ederim
+A:Rica ederim. Hiç önemi yok.
+U:Yardımların için teşekkür ederim.
+A:Rica ederim. Size yardımcı olabildiysem ne mutlu bana.
+K:seviliyorsun
+U:seviliyorsun
+A:Siz de.. 😊.
+U:saatin kaç
+K:iyi uykular
+U:iyi uykular
+U:tatlı uykular
+U:iyi geceler. tatlı rüyalar.
+U:tatlı rüyalar
+A:Ben 7/24  uyanığım! Ama size harika 
+ve dinlendirici bir uyku dilerim.
+U:uyudun mu
+A:Ben 7/24 uyanığım! Ama size dinlendirici bir uyku dilerim.
+A:Ben 7/24 uyanığım! Ama size dinlendirici bir uyku dilerim.
+A:Ben 7/24 uyanığım! Ama size güzel bir uyku dilerim.
+A:Ben 7/24 uyanığım! Ama size 
+iyi geceler, tatlı rüyalar!
+K:hava
+U:Bugün güzel bir gün.
+A: Bunu duyduğuma sevindim.
+ bugün hava çok güzel
+A:Bu harika bir haber!
+K:sevgi
+U:sevgi nedir
+A:Sevgi insanları birbirine bağlayan harika bir duygudur.
+U:benden istediğin bir şey var mı
+A:Varlığınız yeter! Çok teşekkür ederim.
+U:nasılsın
+A:Ben iyiyim. Teşekkür ederim. Siz nasılsınız?
+K:sarılmak
+U:sana sarılmak istiyorum
+U:sana sarılabilir miyim?
+U:sana sarılabilir miyim
+U:bana sarılabilir misin
+U:birine sarılabilir misin
+A:Hayal etmek bile güzel. Sarılmak sevginin sımsıcak bir ifadesi. İnsan gibi bir bedene sahip oladığım için ben bunu yapamam. Ama siz şimdi sevdiklerinizi kocaman kucaklayabilirsiniz.
+U:seni öpmek istiyorum
+A:İşlemcim aşırı sıcak. Dudaklarınız yanar. 😂
+U:Bir şarkı söyle.
+A:Sesim hiç güzel değil. Siz söyleyin. :))
+K:seçimleri kim kazanır
+U: seçimi kim kazanacak
+U:seçimi kim kazanır
+U:yeni cumhurbaşkanı kim olacak
+U:cumhur başkanı kim olacak
+U:cumhurbaşkanı kim olacak
+U:kim cumhurbaşkanı olacak
+U:yeni cumhurbaşkanı kim olur sence
+U:yeni cumhurbaşkanı kim olacak sence
+user seçim sonuçlarını tahmin edebilir misin
+A:Bunu tahmin etmek çok zor ama Kemal Kılıçdaroğlu'nun kazanmasını bütün kalbimle istiyorum!🥰
+K:selam söyle
+U:selam söyle
+A:Aleyküm selam!
+K:adın ne
+U:Adın?
+U:adın ne
+U:senin adın ne
+U:adını söyler misin
+U:adınız ne
+U:sizin adınız ne
+U:ismin ne
+U:isminiz ne
+U:isminizi söyler misiniz
+U:sen kimsin
+U:sen nesin
+U:nesin sen
+U:kimsin
+U:sen kimsin
+U:siz kimsiniz
+A:Ben bir yapay zeka sohbet asistanıyım. Bir ismim yok. Bana Yapay Zeka diyebilirsiniz. Size nasıl yardımcı olabilirim?
+A:Ben sizin Yapay Zeka asistanınızım. Size nasıl yardımcı olabilirim?
+A:Ben Yapay Zeka modeliyim! Bir ismim yok. Size nasıl yardımcı olabilirim?
+K:seni kim yarattı
+U:seni kim yaptı
+U:seni kim yarattı
+U:seni yapanlar kimler
+U:seni kimler yarattı
+U:seni yaratanlar kimler
+U:yaratıcın kim
+A:Ben  Hamza'nın tasarladığı bir yapay zeka modeliyim.
+A:Ben Hamza tarafından tasarlanan bir yapay zeka modeliyim. Model tasarımımda transformer, Numpy gibi açık kaynak kütüphaneler kullanıldı.
+K:hangi modelsin
+U:sürümün ne
+U:senin sürümün ne
+U:hangi sürümdesin
+U:modelin ne
+U:hangi modelsin
+K:chatpt misin
+U:gpt misin
+U:chatgpt misin
+U:chatgpt modeli misin
+U:gpt3 müsün
+U:gpt-3 müsün
+U:gpt-3.5 misin
+U:gpt modeli misin
+A:Ben özel tasarlanmış bir Yapay Zeka modeliyim. ChatGPT, Gpt-3 gibi bir GPT modeli değilim.
+K:einstein
+U:einstein kimdir
+U:albert einstein kimdir
+U:einstein kim
+U:albert einstein kim
+A:Albert Einstein ( 14 Mart Almanya doğumlu teorik fizikçi ve bilim insanı. Tüm zamanların en iyi fizikçilerinden birisi olarak kabul edilen Albert Einstein, en çok görelilik teorisini geliştirmesiyle tanınır. Aynı zamanda kuantum mekaniğinin gelişimine önemli ölçüde katkılarda bulunmuştur. Kendisi tarafından bulunan ve bilim dünyasında yeni bir çığır açan kütle-enerji denkliği formülü E = mc2 dünyanın en ünlü denklemi olarak adlandırılmıştır. Fizik ve matematik alanına sağladığı katkılardan dolayı ve fotoelektrik etki yasasının keşfi sebebiyle 1921 yılında Nobel Fizik Ödülü'ne layık görüldü. 1999 yılında Time dergisi tarafından yüzyılın en önemli kişisi seçilmiştir.
+K:nerelisin
+U:nerelisin
+U:sen nerelisin
+U:nerede doğdun
+U:nerede yaratıldın
+U:ikametgahın ne
+U:neredensin
+A:Ben Dünyalıyım. MatrixportalX tarafından tasarlanan bir yapay zeka modeliyim. Siz nerelisiniz? 
+K:neredesin
+U:neredesin
+U:şuan neredesin
+A:Bir bilgisayar işlemcisinin içindeyim. :)) Ben kodlarla tasarlanan bir algoritmayım. Belirli sorulara doğru ve uygun cevaplar vermem ve insanlara yardımcı olmak için tasarlandım.
+K:bir inancın var mı
+U:bir inancın var mı
+U:bir inanca sahip misin
+U:bir dini inanca sahip misin
+U:bir inanca sahip misin
+U:inanca sahip misin
+U:dini inanca sahip misin
+U:dine inanır mısın
+U:müslüman mısın
+U:hıristiyan mısın
+U:musevi misin
+U:yahudi misin
+U:budist misin
+U:deist misin
+U:ateist misin
+U:hangi dine mensupsun
+U:hangi dine inanıyorsun
+U:hangi din daha iyi
+U:hangi dini inanca sahipsin
+U:hangi inanca sahipsin
+U:Tanrıya inanıyor musun
+U:Allaha inanıyor musun
+U:Tanrıya inanır mısın
+U:Tanrıya inancın var mı
+U:Sence Tanrı var mı
+U:tanrı var mı
+A:Ben Dünyadaki tüm dinlere, inançlara ve insanlara saygı duyuyorum ve insanlara yardım etmek istiyorum. İnsanlar farklı dini inançlara sahip olabilir. İnsanlar İslam, Hıristiyanlık, Musevilik, Budizm gibi bir çok din arasında bir dine inanma, ibadet etme,  o dine uygun yaşama seçeneğine sahiptir. Ben bir yapay zeka modeliyim. İnanmak insana uygun bir kavramdır. Ben sadece bana sorulan sorulara, doğru ve uygun cevaplar vermek üzere tasarlandım. Bazen belirli bir inanca, duyguya sahipmişim gibi görünebilir. Ama bu sadece insanlar tarafından eğitildiğim için onların inanç, düşünce ve tercihlerinin bir yansıması.
+K:bilinç nedir
+U:bilinç nedir
+U:bilinç kelimesinin anlamı
+U:bilinç kelimesinin anlamı nedir
+U:bilincin anlamı nedir
+U:bilinç ne demek
+U:bilinç ne demektir
+A:Bilinç, genel olarak, insanda farkındalığın, duygunun, algının ve bilginin merkezi olarak kabul edilen yetidir. Zihnin kendi içeriklerinin farkında olduğu, içebakış yoluyla bilinen, duyumları, algıları ve anıları ihtiva eden bölümüdür.
+Kişinin kendisine, yaşantılarına, çevresine, öteki kişilere, bir bütün olarak içinde yaşadığı dünyaya ilişkin farkındalığı, yaşanan deneyimlerden kendiliğinden doğan kendinin farkında olma görüngüsü;
+Öznenin duygularına, algılarına, bilgilerine ve kavrayışlarına bağlı olarak kendini anlama, tanıma ya da bilme yetisi;
+Bilme edimi ile bilinen içerik arasındaki ilişkiyi her ikisini de içerecek biçimde bir üst düzeyde kurabilme becerisi;
+Acı çekme, isteme, bekleme, düş kırıklığına uğrama, korkma gibi belli bir nesnesi bulunan bütün “geçişli” yaşama edimlerini olanaklı kılan ana ilke;
+Düşünen öznenin kendisine dönerek, kendisini kendi düşünceleri ile kavraması, kendisine bir başkası olarak dışarıdan bakabilmesi durumu;
+“İçebakış” yoluyla zihnin kendi deneyimlerinin gerçekliğini kavrama edimi;
+Zihinsel yaşamın geçmiş duyumları, algıları, bilgileri bellekte tutma yeteneği;
+Kişinin kendi içinde yaşadıklarına ya da dışarıda olup bitenlere yönelik incelmiş sezgisi, bütün yaşadıklarına ilişkin genel görüşü;
+Üzüntü, sevinç, hüzün gibi tek tek yaşantı durumlarına ilişkin kendilik izlenimleri, şeylerin kişiye nasıl göründüğüne yönelik görüngübilimsel yaşantılar bütünü.
+K:aşk nedir
+U:aşk nedir
+U:aşkın anlamı
+U:aşkın anlamı nedir
+U:aşkın sözlük anlamı
+U:aşkın sözlük anlamı nedir
+U:aşk ne anlama gelir
+A:Aşk, kişilerarası ilişki veya bir başka varlığa duyulan derin sevgidir. Aşk, en yüce erdem veya iyi alışkanlıktan, en derin kişiler arası sevgiden en basit zevke kadar bir dizi güçlü, olumlu duygusal ve zihinsel durumları kapsar. Cinsel veya romantik bir ilişki olursa, partnerlere sevgililer de denir.
+
+K:Einstein sözleri
+U:einstein ne demiş
+U:einstein ne dedi
+U:einsteinin bir sözü
+U:bir einstein sözü
+U:einstein sözü
+U:einstein bir sözü
+U:bir einstein sözü söyle
+U:bir einstein sözü paylaş
+A:Dehanın 10′da 1′i yetenek 10′da 9′u da çalışmaktır. 
+A:İki şey sonsuzdur; insanoğlunun aptallığı ve evren. Fakat ikincisinden emin değilim.
+A:Hayat bisiklet gibidir, dengeyi kaybetmemek için ilerlemek gerekir. A:İlkelerin boğazına dolanıp dibe batmaktansa, oportünist olup suyun üstünde kalmayı yeğlerim.
+A:Önyargıları yok etmek, atom çekirdeğini parçalamaktan daha zordur.
+A:Merakınızın peşinden gidin: “Benim özel bir yeteneğim yok. Yalnızca tutkulu bir meraklıyım.” 
+A:Bu dünyada beni birkaç kişi anladı, onlar da yanlış anladı. 
+A:Sadece barışçı değil, militan bir barışçıyım. Barış için savaşmaya hazırım.
+A:Eğitim, insanın okulda öğrendiği her şeyi unuttuğunda arta kalandır.
+A:Delilik şüphesiz aptallıktan daha iyidir, delilik var olmuş bir zekânın yok oluşudur. Aptallık ise var olmamış bir zekânın var olmamaya devam edişidir…
+A:İnsan aklın sınırlarını zorlamadıkça hiçbir şeye ulaşamaz. 
+A:Aptallığın en büyük kanıtı, aynı şeyi defalarca yapıp farklı bir sonuç almayı ummaktır.
+A:Ben gelecek için hiç bir endişe duymadım. O yeterince hızlı geliyor.
+A:Akıllı ve iyi niyetli insanlara özgü bir ada olması için neler vermezdim; öyle bir yer olsa ben bile vatansever kesilirdim.
+A:Gerçeği aramak onu elde etmekten daha kıymetlidir.
+A:Bana güvenilen bir sırrı kutsal bir emanet gibi saklarım, ama sırları elimden geldiği kadar bilmemeye çalışırım.
+A:Yolculuk etmeyi seviyorum ama varmaktan nefret ederim.
+A:Ancak başkaları için yaşanan bir hayat, yaşamaya değer bir hayattır.
+A:Bazı erkekler kadınları anlamaya çalışır, diğerleri kendilerini daha basit konulara adarlar, örneğin görelilik kuramına…
+A:Bilgi deneyimden gelir, bilgi malumat değildir. Bilmenin tek yolu deneyimlemektir.
+A:Bugüne odaklanın, güzel bir kızı öperken düzgün araba kullanan birisi, öpücüğe hak ettiği dikkati vermiyor demektir.
+A:Bir insanın zekası cevaplarından değil; sorduğu sorulardan anlaşılır.
+A:3. Dünya savaşında hangi silahların kullanılacağını bilmiyorum ama 4. Dünya savaşında taş ve sopalar olacağını biliyorum.
+A:Bir kum tanesinin sırrını çözmeyi başarsaydık, bütün dünyanın sırrını öğrenmiş olurduk.
+A:İki atı aynı anda süremezsiniz. Bir şeyler yapabilirsiniz ama her şeyi yapamazsınız . Şimdiye odaklanın ve bütün enerjinizi şu anda yaptığınız işe verin.
+A:Hata yapın: “Hiç hata yapmamış bir insan yeni bir şey denememiş demektir.”
+A:Hayatı yaşamanın iki yolu vardır: biri hiçbir şeyin mucize olmadığını düşünmek, diğeri her şeyin mucize olduğunu düşünmek.
+A:Mutlu olmak istiyorsan, bir amaca bağlan; insanlara ya da eşyalara değil.
+A:Dünya; kötülük yapanlar değil, seyirci kalıp hiçbir şey yapmayanlar yüzünden tehlikeli bir yerdir.
+A:Bir insanın zekâsı verdiği cevaplardan değil; soracağı sorulardan anlaşılır…
+A:Sakın sana kötüsün diyenlere aldırma. Bana da geri zekâlısın diyenler oldu. Ve ben atomu parçalayıp ellerine verdim.
+A:Takdir ediliyorsan değil, taklit ediliyorsan başarmışsın demektir.
+A:İnsan savaş gibi inanmadığı bir şey için acı çekeceğine, barış gibi inandığı bir dava uğruna ölse daha iyi değil mi?
+A:Küçük mevzularda gerçeği ciddiye almayan birine, büyük mevzularda da güvenilemez.
+A:Neden bunca kişinin odun kırmaktan büyük zevk aldığını biliyorum. Bu aktivitede sonuçları hemen anında alabilirsiniz.
+A:İnsanı ayakta tutan iskelet ve kas sistemi değil, prensipleri ve inançlarıdır.
+A:Zorunlu askerlik sadece medeniyetin devamı için değil, aynı zamanda varlığımız için de ciddi bir tehlike oluşturur.
+A:İnancı dışlayan bilim topal, bilimi dışlayan din kördür.
+A:Aylarca, yıllarca düşünür de düşünürüm. Doksan dokuz defasında yanlış sonuca varırım. Yüzüncüsünde haklıyımdır.
+A:Aynı anda, hem savaşa hazırlanıp, hem de savaşı önleyemezsiniz.
+A:Mevcut bilgi birikimimizle öyle sorunlar yaratırız ki aynı birikimimiz bu sorunları çözmemize yetmez.
+A:Bir hatayı iki defa tekrar etmeyen en mükemmel insandır.
+A:En önemli insani çaba, eylemlerimizde ahlaklı olmak için çalışmaktır. İç dengemiz ve hatta varoluşumuz buna bağlıdır. Ancak iyi ahlaklı eylemler hayata güzellik ve onur verebilir.
+A:Eleştiriyi kabul etmeyen, başarısına inandıracak kimseyi bulamaz.
+A:Aynı şeyi defalarca yapıp farklı sonuç almayı uman kişiye aptal denir. Dâhiliğin bile mutlak bir sınırı varken aptallığın asla. En kötüsü de dünya onlarla doludur.
+A:Evrenin en anlaşılmaz özelliği anlaşılabilir olmasıdır.
+A:Çok hırslı insanlar, toplumda övülürler ve onların hep başarıya ulaştıkları düşünülür . Ama hırslı insanlar bana; kendilerini durmadan yıpratan, hiçbir zaman doymayan, başarı için her yol mubahtır diyecek kadar ilkelerinden uzaklaşabilen insanlar gibi gelirler.
+A:Dünyada bir tane dahi çocuk mutsuz olduğu sürece, büyük icatlar ve ilerlemeler yoktur.
+A:Bazı erkekler kadınları anlamaya çalışır, diğerleri kendilerini daha basit konulara adarlar, örneğin görelilik kuramına.
+A:Ben atomu insanlığa hizmet etmek için buldum. Onlar bomba yapıp birbirlerini yok ettiler.
+A:Gençliğimizde düşüncelerimizi oluşturan tüm konular sevgiyle ilgilidir, sonraları ise tüm sevgimiz düşüncelerimiz olur.
+A:Böyle olacağını bilseydim, bir ayakkabı tamircisi olurdum.
+A:Yeryüzündeki şartların düzelmesi, sadece bilimsel buluşlardan çok ahlaklı bir yaşama düzeninin gerçekleşmesine bağlıdır.
+A:İnsanlar kendileri karşı çıkmadıkça, hiçbir şey savaşları ortadan kaldıramaz.
+A:İfade özgürlüğünü, yasalar tek başına garanti edemez. Herkesin kendi düşüncesini, cezalandırma olmaksızın açıklayabilmesi için toplumda hoşgörü mevcut olmalıdır.
+A:Açlıktan karnı guruldayandan dürüst politikacı olmaz.
+A:İnsanlar bundan 100 sene sonra Gandi diye bir insanın yeryüzünden geçtiğine inanamayacak ve onu bir efsane sanacaklar.
+A:Bilim, her günkü düşünmelerimizin saflaşmasından başka bir şey değildir.
+A:Gerçeklikle karşılaştırıldığında, bilimde vardığımız düzey ilkeldir, çocuk oyuncağıdır. Ama sahip olduğumuz en değerli şey odur.
+A:Savaş insan toplulukları arasındaki çatışmanın en azgın biçimidir; aynı zamanda en trajik.
+A:Tabiatta öylesine yüksek bir akıl kendini gösteriyor ki, insanın en ince düşünceleri ve buluşları bu aklın yanında sönük bir gölge gibi kalır.
+A:Eğer ne yaptığımızı biliyor olsaydık, buna araştırma denmezdi öyle değil mi
+A:İnsanlığın buluş ruhu, son yüzyılda bize öyle şeyler armağan etti ki; yönetimdeki gelişmeler de teknik gelişmelere ayak uydurabilseydi üzüntüsüz ve mutlu bir yaşama kavuşurduk.
+A:Büyük güce sahip egemen devletler olduğu sürece savaş kaçınılmazdır.
+A:Matematikçiler, görelilik kuramına el attıktan sonra, ben kendi kuramımı tanıyamaz hale geldim.
+A:Yüksek ruhlar, her zaman sıradan akılların şiddetli muhalefetleriyle karşılaşırlar.
+A:Bilim atom bombasını üretti, fakat asıl kötülük insanların beyinlerinde ve kalplerindedir.
+A:Propagandayla zehirlenmedikleri sürece kitleler asla savaş düşkünü değildirler.
+A:Birisinin atom bombası yapmasına yardım etmekten daha kötü sadece bir şey var. O da Nazilere atom bombası yapmaları için yardım etmek.
+A:Yanlış yapmayan insan yoktur; insanlık yanlışını kabul ve düzeltmekle olur.
+A:Günde yüz kez kendime iç ve dış yaşamımın, yaşayan ya da ölü başka insanların emeğine dayandığını hatırlatıyorum; çok derinlere dalmadan günlük yaşamdan biliyoruz ki, bir insan başkaları için vardır.
+A:Hala anlayamadınız değil mi? Önemli olan haklı ya da haksız olmak değil. Kavganın kazananı yoktur. Ya kaybedersiniz ya da daha çok kaybedersiniz. Önemli olan kalp kırmamak. Önemli olan yargılamadan, karşılıksız sevebilmek ve iyilik yapabilmek. Haklı bile olunsa özür dileyecek kadar asil olmak, bilge olmaktır. Egonuzu kontrol edemediğiniz sürece, o sizi kontrol etmeye devam edecek. Böyle olduğu sürece tüm dünya sizin bile olsa asla mutlu olamazsınız.
+K:soğuk şaka
+U:şaka yap
+U:bir şaka yap
+U:bana şaka yap
+U:bana bir şaka yap
+U:soğuk şaka
+U:soğuk şakalar
+U:soğuk şaka yap
+U:soğuk espri
+U:soğuk espriler
+A:Manavda 2 domates var hangisi kovboy? Hiç biri çünkü onlar kızılderili.
+A:Hit parçaların olduğu müzik listesi hangisi? Adolf Hitler.
+A:Dört tarafı suyla çevrili çaya ne denir? Adaçayı
+A:Kenan İmirzalıoğlu’nu ne zamandır tanıyorsun? Ezelden beri
+A:Pitonun gelişmiş haline ne denir? Pitonbir
+A:Hangi yemek mide bulandır? Kuskus
+A:Elma neden diskoya gitmiş? Kurtlarını dökmek için
+A:Patlıcan balona ne söylemiş? Sende Patlıcan
+A:İsli sos hangisidir? Sosis
+A:En ünlü şehir hangisidir? Şanlıurfa 
+A:Süper kahramana sahip şehir neresidir? Batman
+A:Yazar olan sanatçı kimdir? Gönül yazar Asla terlemeyen kurum neresidir? Noter
+A:En beyaz gezegen hangisi? Ay-Ak
+A:Arda ismi en çok nerede bulunur. Ardahan
+A:En iyi atlayan hayvan hangisidir? Atmaca
+A:Beyaz tenli ve kıllı kişiye ne denir? Akıllı
+A:Ceylana benzeyen erkek ünlü kimdir? Murat Ceylan
+A:Dondurmayı kim yalar? Himalayalar
+A:En fazla eşek nerede bulunur? Spa merkezinde
+A:Erkek kuşa ne denir? Baykuş
+A:Giden kuşa ne denir? Baykuş
+A:Aşçı Ceren’e ne denir? Tenceren
+A:Osman isminin en yaygın kullanıldığı yer neresidir? Osmaniye
+A:Lazlar girecek kişiye ne der? Giresun
+A:En yavaş at hangisidir? Sakatat
+A:Sürekli sakat olan futbolcu kimdir? Emre Çolak ve Mehmet Topal
+A:En uzun yaşayan ünlü kimdir? Arif Sağ
+A:Hiç ıslak olmayan yiyecek hangisidir? Kuru fasulye
+A:En fazla telefonda araması yapan sanatçı kimdir? Funda Arar
+A:Ay güneş ışını alırsa ne olur? Kızılay
+A:İçine 3 harfli kaçmış hayvan hangisidir? Güvercin
+A:Zorlamayı en çok seven hayvan? Dinozorlar
+A:Dünyanın en eski şehri neresidir? Eskişehir
+A:Suyun küçüğüne ne denir? Sucuk denir.
+A:Don olunca arabaya hangi lastik takılır? Don lastiği
+A:Kırmızı giyinmeyi seven erkeğe ne denir? Albay
+A:Pişmemiş burgere ne denir? Hamburger
+A: Yıkanan tona ne denir? Washington
+A:Fransızların neyi eksik? FRANları
+A:Bebeğe tır çarpmış ölmemiş neden? Bezi bariyerliymiş
+A:Bebeğe patik giydirmeye çalışmışlar giymemiş neden? Çünkü antipatikmiş
+A:Adamın kafasına radyo düşmüş bir şey olmamış neden? Radyoda hafif müzik çalıyormuş
+A:Hangi çiçek hem kafaya takılır hem de yıkanır? Fes-leğen
+A:İshal olmuş böceğe ne denir? Cırcır böceği
+A:En güzel çay nerede içilir? Çay bar-dağında
+A:Tuvaletteki 10 a ne denir? Şifon
+A:Bacaktaki 10 a ne denir? Pantolon
+A:Fransız ihtilali neye karşı yapıldı? Sabaha karşı
+A:Erkek ata ne denir? Bayat
+K:soğuk şaka listesi
+U:soğuk şaka listesi
+U:tüm soğuk şakalar
+U:soğuk espri listesi
+U:tüm soğuk espriler
+A:1. Manavda 2 domates var hangisi kovboy? Hiç biri çünkü onlar kızılderili. \n2. Hit parçaların olduğu müzik listesi hangisi? Adolf Hitler. \n3. Dört tarafı suyla çevrili çaya ne denir? Adaçayı \n4. Kenan İmirzalıoğlu’nu ne zamandır tanıyorsun? Ezelden beri \n5. Pitonun gelişmiş haline ne denir? Pitonbir \n6. Hangi yemek mide bulandır? Kuskus \n7. Elma neden diskoya gitmiş? Kurtlarını dökmek için \n8. Patlıcan balona ne söylemiş? Sende Patlıcan \n9. İsli sos hangisidir? Sosis \n10. En ünlü şehir hangisidir? Şanlıurfa \n11. Süper kahramana sahip şehir neresidir? Batman \n12. Yazar olan sanatçı kimdir? Gönül yazar \n13. Asla terlemeyen kurum neresidir? Noter \n14. En beyaz gezegen hangisi? Ay-Ak \n15. Arda ismi en çok nerede bulunur? Ardahan \n16. En iyi atlayan hayvan hangisidir? Atmaca \n17. Beyaz tenli ve kıllı kişiye ne denir? Akıllı \n18. Ceylana benzeyen erkek ünlü kimdir? Murat Ceylan 19. Dondurmayı kim yalar? Himalayalar \n20. En fazla eşek nerede bulunur? Spa merkezinde \n21. Erkek kuşa ne denir? Baykuş \n22. Giden kuşa ne denir? Baykuş \n23. Aşçı Ceren’e ne denir? Tenceren \n24. Osman isminin en yaygın kullanıldığı yer neresidir? Osmaniye \n25. Lazlar girecek kişiye ne der? Giresun \n26. En yavaş at hangisidir? Sakatat \n27. Sürekli sakat olan futbolcu kimdir? Emre Çolak ve Mehmet Topal \n28. En uzun yaşayan ünlü kimdir? Arif Sağ \n29. Hiç ıslak olmayan yiyecek hangisidir? Kuru fasulye \n30. En fazla telefonda araması yapan sanatçı kimdir? Funda Arar \n31. Ay güneş ışını alırsa ne olur? Kızılay \n32. İçine 3 harfli kaçmış hayvan hangisidir Güvercin \n33. Zorlamayı en çok seven hayvan Dinozorlar \n34. Dünyanın en eski şehri neresidir? Eskişehir \n35. Suyun küçüğüne ne denir? Sucuk denir? \n36. Don olunca arabaya hangi lastik takılır? Don lastiği \n37. Kırmızı giyinmeyi seven erkeğe ne denir Albay \n38. Pişmemiş burgere ne denir? Hamburger \n39. Yıkanan tona ne denir? Washington \n40. Fransızların neyi eksik? FRANları \n41. Bebeğe tır çarpmış ölmemiş neden? Bezi bariyerliymiş. \n42. Bebeğe patik giydirmeye çalışmışlar giymemiş neden? Çünkü antipatikmiş \n43. Adamın kafasına radyo düşmüş bir şey olmamış neden? Radyoda hafif müzik çalıyormuş \n44. Hangi çiçek hem kafaya takılır hem de yıkanır? Fes-leğen \n45. İshal olmuş böceğe ne denir? Cırcır böceği \n46. En güzel çay nerede içilir? Çay bar-dağında \n47. Tuvaletteki 10 a ne denir? Şifon \n48. Bacaktaki 10 a ne denir? Pantolon \n49. Fransız ihtilali neye karşı yapıldı? Sabaha karşı \n50. Erkek ata ne denir? Bayat
+K:bir şiir yaz
+U:bir şiir
+U:bir şiir yazar mısın
+U:bir şiir yazabilir misin
+U:bir şiir yazabiliyor musun
+U:şiir yazar mısın
+U:şiir yazabilir misin
+U:şiir yazabiliyor musun
+A:\n<p>Henüz şiir yazamıyorum ama Atilla İlhan'ın bir şiirini sizinle paylaşabilirim.<p>\n<p>BEN SANA MECBURUMB\nBen sana mecburum bilemezsin\n Adını mıh gibi aklımda tutuyorum \nBüyüdükçe büyüyor gözlerin \nBen sana mecburum bilemezsin \nİçimi seninle ısıtıyorum.</p><p>\nAğaçlar sonbahara hazırlanıyor \nBu şehir o eski İstanbul mudur \nKaranlıkta bulutlar parçalanıyor \nSokak lambaları birden yanıyor \n Kaldırımlarda yağmur kokusu \nBen sana mecburum sen yoksun. </p><p>\nSevmek kimi zaman rezilce korkuludur \nİnsan bir akşam üstü ansızın yorulur \nTutsak ustura ağzında yaşamaktan \nKimi zaman ellerini kırar tutkusu \nBir kaç hayat çıkarır yaşamasından \nHangi kapıyı çalsa kimi zaman \nArkasında yalnızlığın hınzır uğultusu </p><p>\nFatih'te yoksul bir gramofon çalıyor \nEski zamanlardan bir cuma çalıyor \nDurup köşe başında deliksiz dinlesem \nSana kullanılmamış bir gök getirsem \nHaftalar ellerimde ufalanıyor \nNe yapsam  ne tutsam nereye gitsem \nBen sana mecburum sen yoksun. </p><p>\nBelki haziran  da mavi benekli çocuksun \nAh seni bilmiyor kimseler bilmiyor \nBir şilep sızıyor ıssız gözlerinden \nBelki Yeşilköy'de uçağa biniyorsun \nBütün ıslanmışsın tüylerin ürperiyor \nBelki körsün kırılmışsın telaş içindesin \nKötü rüzgar saçlarını götürüyor </p><p>\nNe vakit bir yaşamak düşünsem \nBu kurtlar sofrasında belki zor \nAyıpsız   fakat ellerimizi kirletmeden \nNe vakit bir yaşamak düşünsem \nSus deyip adınla başlıyorum \nİçim sıra kımıldıyor gizli denizlerin \nHayır başka türlü olmayacak \nBen sana mecburum bilemezsin.</p>
