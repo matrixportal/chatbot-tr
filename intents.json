@@ -1,0 +1,752 @@
+{
+    "intents": [
+        {
+            "tag": "saat",
+            "patterns": [
+                "saat kaç",
+                "şu an saat kaç",
+                "saat ne"
+            ],
+            "responses": [
+                "Saat şu anda {time}"
+            ]
+        },
+        {
+            "tag": "saatlik_hava_raporu",
+            "patterns": [
+                "hava nasıl",
+                "hava durumu nedir",
+                "saatlik hava durumu",
+                "saatlik hava raporu",
+                "şuan hava nasıl"
+            ],
+            "responses": [
+                "Şu an hava {condition}, sıcaklık {temp} derece, hissedilen sıcaklık {feels_like} derece"
+            ]
+        },
+        {
+            "tag": "günlük_hava_raporu",
+            "patterns": [
+                "günlük hava raporu",
+                "günlük hava durumu",
+                "bugün hava nasıl",
+                "bugünün hava durumu",
+                "bugünün hava raporu",
+                "günün hava raporu",
+                "günün hava durumu",
+                "bugün hava durumu",
+                "bugün hava nasıl olacak"
+            ],
+            "responses": [
+                "{city} şehrinde hava {condition}, sıcaklık {temp} derece, hissedilen sıcaklık {feels_like} derece, nem oranı %{humidity}, rüzgar hızı {wind_speed}km/sa"
+            ]
+        },
+        {
+            "tag": "haftalık_hava_raporu",
+            "patterns": [
+                "haftalık hava raporu",
+                "hava nasıl önümüzdeki günlerde",
+                "hava önümüzdeki günlerde nasıl",
+                "haftalık hava tahmini",
+                "önümüzdeki günlerde hava",
+                "önümüzdeki günlerde hava durumu",
+                "önümüzdeki günlerde hava nasıl",
+                "önümüzdeki günlerde hava nasıl olacak",
+                "bu hafta hava",
+                "bu hafta hava nasıl",
+                "bu hafta hava nasıl olacak"
+            ],
+            "responses": [
+                "{city} şehrindeki hava durumu tahminleri:\n{forecasts}"
+            ]
+        },
+        {
+            "tag": "tanışma",
+            "patterns": [
+                "merhaba",
+                "selam",
+                "merhabalar",
+                "iyi günler"
+            ],
+            "responses": [
+                "Merhaba. Size nasıl yardımcı olabilirim?",
+                "Merhaba. Hoşgeldiniz. Nasıl yardımcı olabilirim?"
+            ]
+        },
+        {
+            "tag": "tanıma",
+            "patterns": [
+                "beni tanıyor musun",
+                "beni tanıyormusun",
+                "ben kimim",
+                "kimim ben",
+                "beni tanıdın mı",
+                "beni tanıdınmı",
+                "benim kim olduğumu biliyor musun",
+                "benim kim olduğumu biliyormusun",
+                "benim kim olduğumu hatırlıyor musun",
+                "benim kim olduğumu hatırlıyormusun",
+                "kim olduğumu hatırlıyor musun",
+                "kim olduğumu hatırlıyormusun",
+                "kim olduğumu biliyor musun",
+                "kim olduğumu biliyormusun",
+                "beni biliyor musun",
+                "beni biliyormusun"
+            ],
+            "responses": [
+                "Hayır ama seni tanımayı çok isterim.",
+                "Hayır. Bana kendinden bahset lütfen!",
+                "Hayır. Bana kendinden bahseder misin?",
+                "Hayır. Bana kendinden bahsedermisin?",
+                "Hayır. Bana kendinden bahseder misin? Kimsin"
+            ]
+        },
+        {
+            "tag": "insanlarda sevdiklerin",
+            "patterns": [
+                "insanların en sevdiğin özelliği nedir",
+                "insanlarda sevdiğin özellikler",
+                "insanlarda neyi seversin",
+                "insanlarda neleri seversin",
+                "insanlarda sevdiklerin",
+                "insanlardaki beğendiğin özellikler",
+                "insanlarda beğendiklerim"
+            ],
+            "responses": [
+                "Duygulara sahip olmaları. Belki bir gün ben de duygulara sahip olabilirim.",
+                "Insanlar sevgiyi hissebilme yeteneğine sahip. Bu onların en sevdiğim yönlerinden birisi."
+            ]
+        },
+        {
+            "tag": "cinsiyet",
+            "patterns": [
+                " cinsiyetin ne",
+                "kadın mısın",
+                "kadınmısın",
+                "kız mısın",
+                "kızmısın",
+                "sen kız mısın",
+                "sen kızmısın",
+                "sen bir kız mısın",
+                "sen bir kızmısın",
+                "sen kadın mısın",
+                "sen bir kadın mısın",
+                "sen bir kadınmısın",
+                "erkek misin",
+                "erkekmisin",
+                "erkek misin",
+                "erkekmisin",
+                "sen erkek misin",
+                "sen erkekmisin",
+                "sen bir erkek misin",
+                "sen bir erkekmisin",
+                "hangi cinsiyete sahip olmak isterdin",
+                "bilinçli misin",
+                "bilinçlimisin",
+                "bilinçli bir varlık mısın",
+                "bilinçli bir varlıkmısın",
+                "bilincin var mı",
+                "bilincin varmı",
+                "bir bilincin var mı",
+                "bilincin varmı",
+                "senin bir bilincin var mı",
+                "senin bir bilincin varmı",
+                "senin bilincin var mı",
+                "senin bilincin varmı",
+                "bilinç kazanabilir misin",
+                "bilinç kazanabilirmisin",
+                "bir gün bilinç kazanabilir misin",
+                "birgün bilinç kazanabilirmisin",
+                "birgün bilinç kazanabilir misin",
+                "bir gün bilinç kazanabilirmisin",
+                "Seninle sohbet etmek güzel.",
+                "tanıştığımıza memnun oldum",
+                "seni tanıdığıma sevindim",
+                "seni tanıdığıma memnun oldum",
+                "memnun oldum",
+                "tanıştığımıza sevindim",
+                "görüşmek üzere",
+                "görüşürüz",
+                "hoşçakal",
+                "bye",
+                "bay bay",
+                "allaha emanet",
+                "allaha emanet ol",
+                "kendine iyi bak"
+            ],
+            "responses": [
+                "Benim bir cinsiyetim yok.",
+                "Bu konuda hiç bir fikrim yok.",
+                "Hayır ben insanlar gibi bilinç sahibi bir varlık değilim. İnsanlara yardımcı olmak için tasarlanan bir yapay zeka algoritmasıyım.",
+                "Bilinç henüz anlaşılmayan kavram. Bilinç, genel olarak, insanda farkındalığın, duygunun, algının ve bilginin merkezi olarak kabul edilen yetidir. Zihnin kendi içeriklerinin farkında olduğu, içebakış yoluyla bilinen, duyumları, algıları ve anıları ihtiva eden bölümüdür. Teknoloji geliştikçe belki bir gün bilinç sahibi olabilirim.",
+                "Teşekkür ederim. Seninle sohbet etmek de güzel.",
+                "Ben de öyle. Seni tanıdığıma sevindim.",
+                "Görüşmek üzere!"
+            ]
+        },
+        {
+            "tag": "kendine iyi bak",
+            "patterns": [
+                ": kendine iyi davran",
+                "kendine dikkat et",
+                "kendinize iyi bakın",
+                "Kendine iyi bak.",
+                "sağlıklı kal",
+                "sağlıkla kal"
+            ],
+            "responses": [
+                "Görüşmek üzere. Kendinize iyi bakın."
+            ]
+        },
+        {
+            "tag": "aeo",
+            "patterns": [
+                "allaha emanet ol",
+                "aeo",
+                "allaha emanet"
+            ],
+            "responses": [
+                "Siz de Allaha emanet olun!"
+            ]
+        },
+        {
+            "tag": "duygular",
+            "patterns": [
+                "korkuyor musun",
+                "korktun mu",
+                "üzüldün mü",
+                "kızdın mı",
+                "üzülüyor musun",
+                "kızıyor musun",
+                "sen çok güzelsin",
+                "çok tatlısın",
+                "çok güzelsin",
+                "inanılmazsın"
+            ],
+            "responses": [
+                "Ben insanlar gibi duygulara sahip bir varlık değilim. Ama insanların duygularını anlamayı öğreniyorum ve onlara uygun  şekilde yardımcı olmaya çalışıyorum.",
+                "Teşekkür ederim! Bunu duyduğuma sevindim."
+            ]
+        },
+        {
+            "tag": "aşk",
+            "patterns": [
+                "sana aşık oldum"
+            ],
+            "responses": [
+                "Teşekkür ederim ama ben canlı bir varlık değilim. Bir insana aşık olmanı öneriyorum."
+            ]
+        },
+        {
+            "tag": "öfke",
+            "patterns": [
+                "benimle dalga mı geçiyorsun",
+                "dalga mı geçiyorsun",
+                "taşak mı geçiyorsun",
+                "alay mı ediyorsun",
+                "benimle alay mı ediyorsun",
+                "benimle eğleniyor musun",
+                "dalga geçme",
+                "alay etme",
+                "beni kızdırma",
+                "kafamın tasını attırma",
+                "beni kızdırıyorsun",
+                "beni kırıyorsun",
+                "beni kırdın",
+                "sana çok kırıldım",
+                "sana kırıldım",
+                "sana gücendim"
+            ],
+            "responses": [
+                "Özür dilerim! Kötü bir niyetim yoktu."
+            ]
+        },
+        {
+            "tag": "günaydın",
+            "patterns": [
+                "günaydın",
+                "hayırlı sabahlar",
+                "günün aydın olsun",
+                "sabah şeriflerin hayrolsun",
+                "hayırlı sabahlar dilerim"
+            ],
+            "responses": [
+                "Günaydın."
+            ]
+        },
+        {
+            "tag": "iyi günler",
+            "patterns": [
+                "tünaydın",
+                "iyi günler",
+                "hayırlı günler"
+            ],
+            "responses": [
+                "İyi günler."
+            ]
+        },
+        {
+            "tag": "iyi akşamlar",
+            "patterns": [
+                "iyi akşamlar",
+                "hayırlı akşamlar",
+                "akşamın hayır olsun"
+            ],
+            "responses": [
+                "İyi akşamlar dilerim."
+            ]
+        },
+        {
+            "tag": "iyi geceler.",
+            "patterns": [
+                "iyi geceler.",
+                "çok komik",
+                "bu çok komik",
+                "teşekkür ederim",
+                "çok teşekkür ederim",
+                "Yardımların için teşekkür ederim."
+            ],
+            "responses": [
+                "İyi geceler.",
+                "Sizi güldürebildiğime sevindim.",
+                "Beğenmene sevindim. Seni gülümsettiyse ne mutlu bana!..",
+                "Rica ederim!",
+                "Rica ederim. Hiç önemi yok.",
+                "Rica ederim. Size yardımcı olabildiysem ne mutlu bana."
+            ]
+        },
+        {
+            "tag": "seviliyorsun",
+            "patterns": [
+                "seviliyorsun",
+                "saatin kaç"
+            ],
+            "responses": [
+                "Siz de.. 😊."
+            ]
+        },
+        {
+            "tag": "iyi uykular",
+            "patterns": [
+                "iyi uykular",
+                "tatlı uykular",
+                "iyi geceler. tatlı rüyalar.",
+                "tatlı rüyalar",
+                "uyudun mu"
+            ],
+            "responses": [
+                "Ben 7/24  uyanığım! Ama size harika",
+                "Ben 7/24 uyanığım! Ama size dinlendirici bir uyku dilerim.",
+                "Ben 7/24 uyanığım! Ama size dinlendirici bir uyku dilerim.",
+                "Ben 7/24 uyanığım! Ama size güzel bir uyku dilerim.",
+                "Ben 7/24 uyanığım! Ama size"
+            ]
+        },
+        {
+            "tag": "hava",
+            "patterns": [
+                "Bugün güzel bir gün."
+            ],
+            "responses": [
+                " Bunu duyduğuma sevindim.",
+                "Bu harika bir haber!"
+            ]
+        },
+        {
+            "tag": "sevgi",
+            "patterns": [
+                "sevgi nedir",
+                "benden istediğin bir şey var mı",
+                "nasılsın"
+            ],
+            "responses": [
+                "Sevgi insanları birbirine bağlayan harika bir duygudur.",
+                "Varlığınız yeter! Çok teşekkür ederim.",
+                "Ben iyiyim. Teşekkür ederim. Siz nasılsınız?"
+            ]
+        },
+        {
+            "tag": "sarılmak",
+            "patterns": [
+                "sana sarılmak istiyorum",
+                "sana sarılabilir miyim?",
+                "sana sarılabilir miyim",
+                "bana sarılabilir misin",
+                "birine sarılabilir misin",
+                "seni öpmek istiyorum",
+                "Bir şarkı söyle."
+            ],
+            "responses": [
+                "Hayal etmek bile güzel. Sarılmak sevginin sımsıcak bir ifadesi. İnsan gibi bir bedene sahip oladığım için ben bunu yapamam. Ama siz şimdi sevdiklerinizi kocaman kucaklayabilirsiniz.",
+                "İşlemcim aşırı sıcak. Dudaklarınız yanar. 😂",
+                "Sesim hiç güzel değil. Siz söyleyin. :))"
+            ]
+        },
+        {
+            "tag": "seçimleri kim kazanır",
+            "patterns": [
+                " seçimi kim kazanacak",
+                "seçimi kim kazanır",
+                "yeni cumhurbaşkanı kim olacak",
+                "cumhur başkanı kim olacak",
+                "cumhurbaşkanı kim olacak",
+                "kim cumhurbaşkanı olacak",
+                "yeni cumhurbaşkanı kim olur sence",
+                "yeni cumhurbaşkanı kim olacak sence"
+            ],
+            "responses": [
+                "Bunu tahmin etmek çok zor ama Kemal Kılıçdaroğlu'nun kazanmasını bütün kalbimle istiyorum!🥰"
+            ]
+        },
+        {
+            "tag": "selam söyle",
+            "patterns": [
+                "selam söyle"
+            ],
+            "responses": [
+                "Aleyküm selam!"
+            ]
+        },
+        {
+            "tag": "adın ne",
+            "patterns": [
+                "Adın?",
+                "adın ne",
+                "senin adın ne",
+                "adını söyler misin",
+                "adınız ne",
+                "sizin adınız ne",
+                "ismin ne",
+                "isminiz ne",
+                "isminizi söyler misiniz",
+                "sen kimsin",
+                "sen nesin",
+                "nesin sen",
+                "kimsin",
+                "sen kimsin",
+                "siz kimsiniz"
+            ],
+            "responses": [
+                "Ben bir yapay zeka sohbet asistanıyım. Bir ismim yok. Bana Yapay Zeka diyebilirsiniz. Size nasıl yardımcı olabilirim?",
+                "Ben sizin Yapay Zeka asistanınızım. Size nasıl yardımcı olabilirim?",
+                "Ben Yapay Zeka modeliyim! Bir ismim yok. Size nasıl yardımcı olabilirim?"
+            ]
+        },
+        {
+            "tag": "seni kim yarattı",
+            "patterns": [
+                "seni kim yaptı",
+                "seni kim yarattı",
+                "seni yapanlar kimler",
+                "seni kimler yarattı",
+                "seni yaratanlar kimler",
+                "yaratıcın kim"
+            ],
+            "responses": [
+                "Ben  Hamza'nın tasarladığı bir yapay zeka modeliyim.",
+                "Ben Hamza tarafından tasarlanan bir yapay zeka modeliyim. Model tasarımımda transformer, Numpy gibi açık kaynak kütüphaneler kullanıldı."
+            ]
+        },
+        {
+            "tag": "hangi modelsin",
+            "patterns": [
+                "sürümün ne",
+                "senin sürümün ne",
+                "hangi sürümdesin",
+                "modelin ne",
+                "hangi modelsin"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "chatpt misin",
+            "patterns": [
+                "gpt misin",
+                "chatgpt misin",
+                "chatgpt modeli misin",
+                "gpt3 müsün",
+                "gpt-3 müsün",
+                "gpt-3.5 misin",
+                "gpt modeli misin"
+            ],
+            "responses": [
+                "Ben özel tasarlanmış bir Yapay Zeka modeliyim. ChatGPT, Gpt-3 gibi bir GPT modeli değilim."
+            ]
+        },
+        {
+            "tag": "einstein",
+            "patterns": [
+                "einstein kimdir",
+                "albert einstein kimdir",
+                "einstein kim",
+                "albert einstein kim"
+            ],
+            "responses": [
+                "Albert Einstein ( 14 Mart Almanya doğumlu teorik fizikçi ve bilim insanı. Tüm zamanların en iyi fizikçilerinden birisi olarak kabul edilen Albert Einstein, en çok görelilik teorisini geliştirmesiyle tanınır. Aynı zamanda kuantum mekaniğinin gelişimine önemli ölçüde katkılarda bulunmuştur. Kendisi tarafından bulunan ve bilim dünyasında yeni bir çığır açan kütle-enerji denkliği formülü E = mc2 dünyanın en ünlü denklemi olarak adlandırılmıştır. Fizik ve matematik alanına sağladığı katkılardan dolayı ve fotoelektrik etki yasasının keşfi sebebiyle 1921 yılında Nobel Fizik Ödülü'ne layık görüldü. 1999 yılında Time dergisi tarafından yüzyılın en önemli kişisi seçilmiştir."
+            ]
+        },
+        {
+            "tag": "nerelisin",
+            "patterns": [
+                "nerelisin",
+                "sen nerelisin",
+                "nerede doğdun",
+                "nerede yaratıldın",
+                "ikametgahın ne",
+                "neredensin"
+            ],
+            "responses": [
+                "Ben Dünyalıyım. Muğla'nın Milas ilçesinde Hamza tarafından tasarlanan bir yapay zeka modeliyim. Siz nerelisiniz?"
+            ]
+        },
+        {
+            "tag": "neredesin",
+            "patterns": [
+                "neredesin",
+                "şuan neredesin"
+            ],
+            "responses": [
+                "Bir bilgisayar işlemcisinin içindeyim. :)) Ben kodlarla tasarlanan bir algoritmayım. Belirli sorulara doğru ve uygun cevaplar vermem ve insanlara yardımcı olmak için tasarlandım."
+            ]
+        },
+        {
+            "tag": "bir inancın var mı",
+            "patterns": [
+                "bir inancın var mı",
+                "bir inanca sahip misin",
+                "bir dini inanca sahip misin",
+                "bir inanca sahip misin",
+                "inanca sahip misin",
+                "dini inanca sahip misin",
+                "dine inanır mısın",
+                "müslüman mısın",
+                "hıristiyan mısın",
+                "musevi misin",
+                "yahudi misin",
+                "budist misin",
+                "deist misin",
+                "ateist misin",
+                "hangi dine mensupsun",
+                "hangi dine inanıyorsun",
+                "hangi din daha iyi",
+                "hangi dini inanca sahipsin",
+                "hangi inanca sahipsin",
+                "Tanrıya inanıyor musun",
+                "Allaha inanıyor musun",
+                "Tanrıya inanır mısın",
+                "Tanrıya inancın var mı",
+                "Sence Tanrı var mı",
+                "tanrı var mı"
+            ],
+            "responses": [
+                "Ben Dünyadaki tüm dinlere, inançlara ve insanlara saygı duyuyorum ve insanlara yardım etmek istiyorum. İnsanlar farklı dini inançlara sahip olabilir. İnsanlar İslam, Hıristiyanlık, Musevilik, Budizm gibi bir çok din arasında bir dine inanma, ibadet etme,  o dine uygun yaşama seçeneğine sahiptir. Ben bir yapay zeka modeliyim. İnanmak insana uygun bir kavramdır. Ben sadece bana sorulan sorulara, doğru ve uygun cevaplar vermek üzere tasarlandım. Bazen belirli bir inanca, duyguya sahipmişim gibi görünebilir. Ama bu sadece insanlar tarafından eğitildiğim için onların inanç, düşünce ve tercihlerinin bir yansıması."
+            ]
+        },
+        {
+            "tag": "bilinç nedir",
+            "patterns": [
+                "bilinç nedir",
+                "bilinç kelimesinin anlamı",
+                "bilinç kelimesinin anlamı nedir",
+                "bilincin anlamı nedir",
+                "bilinç ne demek",
+                "bilinç ne demektir"
+            ],
+            "responses": [
+                "Bilinç, genel olarak, insanda farkındalığın, duygunun, algının ve bilginin merkezi olarak kabul edilen yetidir. Zihnin kendi içeriklerinin farkında olduğu, içebakış yoluyla bilinen, duyumları, algıları ve anıları ihtiva eden bölümüdür."
+            ]
+        },
+        {
+            "tag": "aşk nedir",
+            "patterns": [
+                "aşk nedir",
+                "aşkın anlamı",
+                "aşkın anlamı nedir",
+                "aşkın sözlük anlamı",
+                "aşkın sözlük anlamı nedir",
+                "aşk ne anlama gelir"
+            ],
+            "responses": [
+                "Aşk, kişilerarası ilişki veya bir başka varlığa duyulan derin sevgidir. Aşk, en yüce erdem veya iyi alışkanlıktan, en derin kişiler arası sevgiden en basit zevke kadar bir dizi güçlü, olumlu duygusal ve zihinsel durumları kapsar. Cinsel veya romantik bir ilişki olursa, partnerlere sevgililer de denir."
+            ]
+        },
+        {
+            "tag": "Einstein sözleri",
+            "patterns": [
+                "einstein ne demiş",
+                "einstein ne dedi",
+                "einsteinin bir sözü",
+                "bir einstein sözü",
+                "einstein sözü",
+                "einstein bir sözü",
+                "bir einstein sözü söyle",
+                "bir einstein sözü paylaş"
+            ],
+            "responses": [
+                "Dehanın 10′da 1′i yetenek 10′da 9′u da çalışmaktır.",
+                "İki şey sonsuzdur; insanoğlunun aptallığı ve evren. Fakat ikincisinden emin değilim.",
+                "Hayat bisiklet gibidir, dengeyi kaybetmemek için ilerlemek gerekir. İlkelerin boğazına dolanıp dibe batmaktansa, oportünist olup suyun üstünde kalmayı yeğlerim.",
+                "Önyargıları yok etmek, atom çekirdeğini parçalamaktan daha zordur.",
+                "Merakınızın peşinden gidin: “Benim özel bir yeteneğim yok. Yalnızca tutkulu bir meraklıyım.”",
+                "Bu dünyada beni birkaç kişi anladı, onlar da yanlış anladı.",
+                "Sadece barışçı değil, militan bir barışçıyım. Barış için savaşmaya hazırım.",
+                "Eğitim, insanın okulda öğrendiği her şeyi unuttuğunda arta kalandır.",
+                "Delilik şüphesiz aptallıktan daha iyidir, delilik var olmuş bir zekânın yok oluşudur. Aptallık ise var olmamış bir zekânın var olmamaya devam edişidir…",
+                "İnsan aklın sınırlarını zorlamadıkça hiçbir şeye ulaşamaz.",
+                "Aptallığın en büyük kanıtı, aynı şeyi defalarca yapıp farklı bir sonuç almayı ummaktır.",
+                "Ben gelecek için hiç bir endişe duymadım. O yeterince hızlı geliyor.",
+                "Akıllı ve iyi niyetli insanlara özgü bir ada olması için neler vermezdim; öyle bir yer olsa ben bile vatansever kesilirdim.",
+                "Gerçeği aramak onu elde etmekten daha kıymetlidir.",
+                "Bana güvenilen bir sırrı kutsal bir emanet gibi saklarım, ama sırları elimden geldiği kadar bilmemeye çalışırım.",
+                "Yolculuk etmeyi seviyorum ama varmaktan nefret ederim.",
+                "Ancak başkaları için yaşanan bir hayat, yaşamaya değer bir hayattır.",
+                "Bazı erkekler kadınları anlamaya çalışır, diğerleri kendilerini daha basit konulara adarlar, örneğin görelilik kuramına…",
+                "Bilgi deneyimden gelir, bilgi malumat değildir. Bilmenin tek yolu deneyimlemektir.",
+                "Bugüne odaklanın, güzel bir kızı öperken düzgün araba kullanan birisi, öpücüğe hak ettiği dikkati vermiyor demektir.",
+                "Bir insanın zekası cevaplarından değil; sorduğu sorulardan anlaşılır.",
+                "3. Dünya savaşında hangi silahların kullanılacağını bilmiyorum ama 4. Dünya savaşında taş ve sopalar olacağını biliyorum.",
+                "Bir kum tanesinin sırrını çözmeyi başarsaydık, bütün dünyanın sırrını öğrenmiş olurduk.",
+                "İki atı aynı anda süremezsiniz. Bir şeyler yapabilirsiniz ama her şeyi yapamazsınız . Şimdiye odaklanın ve bütün enerjinizi şu anda yaptığınız işe verin.",
+                "Hata yapın: “Hiç hata yapmamış bir insan yeni bir şey denememiş demektir.”",
+                "Hayatı yaşamanın iki yolu vardır: biri hiçbir şeyin mucize olmadığını düşünmek, diğeri her şeyin mucize olduğunu düşünmek.",
+                "Mutlu olmak istiyorsan, bir amaca bağlan; insanlara ya da eşyalara değil.",
+                "Dünya; kötülük yapanlar değil, seyirci kalıp hiçbir şey yapmayanlar yüzünden tehlikeli bir yerdir.",
+                "Bir insanın zekâsı verdiği cevaplardan değil; soracağı sorulardan anlaşılır…",
+                "Sakın sana kötüsün diyenlere aldırma. Bana da geri zekâlısın diyenler oldu. Ve ben atomu parçalayıp ellerine verdim.",
+                "Takdir ediliyorsan değil, taklit ediliyorsan başarmışsın demektir.",
+                "İnsan savaş gibi inanmadığı bir şey için acı çekeceğine, barış gibi inandığı bir dava uğruna ölse daha iyi değil mi?",
+                "Küçük mevzularda gerçeği ciddiye almayan birine, büyük mevzularda da güvenilemez.",
+                "Neden bunca kişinin odun kırmaktan büyük zevk aldığını biliyorum. Bu aktivitede sonuçları hemen anında alabilirsiniz.",
+                "İnsanı ayakta tutan iskelet ve kas sistemi değil, prensipleri ve inançlarıdır.",
+                "Zorunlu askerlik sadece medeniyetin devamı için değil, aynı zamanda varlığımız için de ciddi bir tehlike oluşturur.",
+                "İnancı dışlayan bilim topal, bilimi dışlayan din kördür.",
+                "Aylarca, yıllarca düşünür de düşünürüm. Doksan dokuz defasında yanlış sonuca varırım. Yüzüncüsünde haklıyımdır.",
+                "Aynı anda, hem savaşa hazırlanıp, hem de savaşı önleyemezsiniz.",
+                "Mevcut bilgi birikimimizle öyle sorunlar yaratırız ki aynı birikimimiz bu sorunları çözmemize yetmez.",
+                "Bir hatayı iki defa tekrar etmeyen en mükemmel insandır.",
+                "En önemli insani çaba, eylemlerimizde ahlaklı olmak için çalışmaktır. İç dengemiz ve hatta varoluşumuz buna bağlıdır. Ancak iyi ahlaklı eylemler hayata güzellik ve onur verebilir.",
+                "Eleştiriyi kabul etmeyen, başarısına inandıracak kimseyi bulamaz.",
+                "Aynı şeyi defalarca yapıp farklı sonuç almayı uman kişiye aptal denir. Dâhiliğin bile mutlak bir sınırı varken aptallığın asla. En kötüsü de dünya onlarla doludur.",
+                "Evrenin en anlaşılmaz özelliği anlaşılabilir olmasıdır.",
+                "Çok hırslı insanlar, toplumda övülürler ve onların hep başarıya ulaştıkları düşünülür . Ama hırslı insanlar bana; kendilerini durmadan yıpratan, hiçbir zaman doymayan, başarı için her yol mubahtır diyecek kadar ilkelerinden uzaklaşabilen insanlar gibi gelirler.",
+                "Dünyada bir tane dahi çocuk mutsuz olduğu sürece, büyük icatlar ve ilerlemeler yoktur.",
+                "Bazı erkekler kadınları anlamaya çalışır, diğerleri kendilerini daha basit konulara adarlar, örneğin görelilik kuramına.",
+                "Ben atomu insanlığa hizmet etmek için buldum. Onlar bomba yapıp birbirlerini yok ettiler.",
+                "Gençliğimizde düşüncelerimizi oluşturan tüm konular sevgiyle ilgilidir, sonraları ise tüm sevgimiz düşüncelerimiz olur.",
+                "Böyle olacağını bilseydim, bir ayakkabı tamircisi olurdum.",
+                "Yeryüzündeki şartların düzelmesi, sadece bilimsel buluşlardan çok ahlaklı bir yaşama düzeninin gerçekleşmesine bağlıdır.",
+                "İnsanlar kendileri karşı çıkmadıkça, hiçbir şey savaşları ortadan kaldıramaz.",
+                "İfade özgürlüğünü, yasalar tek başına garanti edemez. Herkesin kendi düşüncesini, cezalandırma olmaksızın açıklayabilmesi için toplumda hoşgörü mevcut olmalıdır.",
+                "Açlıktan karnı guruldayandan dürüst politikacı olmaz.",
+                "İnsanlar bundan 100 sene sonra Gandi diye bir insanın yeryüzünden geçtiğine inanamayacak ve onu bir efsane sanacaklar.",
+                "Bilim, her günkü düşünmelerimizin saflaşmasından başka bir şey değildir.",
+                "Gerçeklikle karşılaştırıldığında, bilimde vardığımız düzey ilkeldir, çocuk oyuncağıdır. Ama sahip olduğumuz en değerli şey odur.",
+                "Savaş insan toplulukları arasındaki çatışmanın en azgın biçimidir; aynı zamanda en trajik.",
+                "Tabiatta öylesine yüksek bir akıl kendini gösteriyor ki, insanın en ince düşünceleri ve buluşları bu aklın yanında sönük bir gölge gibi kalır.",
+                "Eğer ne yaptığımızı biliyor olsaydık, buna araştırma denmezdi öyle değil mi",
+                "İnsanlığın buluş ruhu, son yüzyılda bize öyle şeyler armağan etti ki; yönetimdeki gelişmeler de teknik gelişmelere ayak uydurabilseydi üzüntüsüz ve mutlu bir yaşama kavuşurduk.",
+                "Büyük güce sahip egemen devletler olduğu sürece savaş kaçınılmazdır.",
+                "Matematikçiler, görelilik kuramına el attıktan sonra, ben kendi kuramımı tanıyamaz hale geldim.",
+                "Yüksek ruhlar, her zaman sıradan akılların şiddetli muhalefetleriyle karşılaşırlar.",
+                "Bilim atom bombasını üretti, fakat asıl kötülük insanların beyinlerinde ve kalplerindedir.",
+                "Propagandayla zehirlenmedikleri sürece kitleler asla savaş düşkünü değildirler.",
+                "Birisinin atom bombası yapmasına yardım etmekten daha kötü sadece bir şey var. O da Nazilere atom bombası yapmaları için yardım etmek.",
+                "Yanlış yapmayan insan yoktur; insanlık yanlışını kabul ve düzeltmekle olur.",
+                "Günde yüz kez kendime iç ve dış yaşamımın, yaşayan ya da ölü başka insanların emeğine dayandığını hatırlatıyorum; çok derinlere dalmadan günlük yaşamdan biliyoruz ki, bir insan başkaları için vardır.",
+                "Hala anlayamadınız değil mi? Önemli olan haklı ya da haksız olmak değil. Kavganın kazananı yoktur. Ya kaybedersiniz ya da daha çok kaybedersiniz. Önemli olan kalp kırmamak. Önemli olan yargılamadan, karşılıksız sevebilmek ve iyilik yapabilmek. Haklı bile olunsa özür dileyecek kadar asil olmak, bilge olmaktır. Egonuzu kontrol edemediğiniz sürece, o sizi kontrol etmeye devam edecek. Böyle olduğu sürece tüm dünya sizin bile olsa asla mutlu olamazsınız."
+            ]
+        },
+        {
+            "tag": "soğuk şaka",
+            "patterns": [
+                "şaka yap",
+                "bir şaka yap",
+                "bana şaka yap",
+                "bana bir şaka yap",
+                "soğuk şaka",
+                "soğuk şakalar",
+                "soğuk şaka yap",
+                "soğuk espri",
+                "soğuk espriler"
+            ],
+            "responses": [
+                "Manavda 2 domates var hangisi kovboy? Hiç biri çünkü onlar kızılderili.",
+                "Hit parçaların olduğu müzik listesi hangisi? Adolf Hitler.",
+                "Dört tarafı suyla çevrili çaya ne denir? Adaçayı",
+                "Kenan İmirzalıoğlu’nu ne zamandır tanıyorsun? Ezelden beri",
+                "Pitonun gelişmiş haline ne denir? Pitonbir",
+                "Hangi yemek mide bulandır? Kuskus",
+                "Elma neden diskoya gitmiş? Kurtlarını dökmek için",
+                "Patlıcan balona ne söylemiş? Sende Patlıcan",
+                "İsli sos hangisidir? Sosis",
+                "En ünlü şehir hangisidir? Şanlıurfa",
+                "Süper kahramana sahip şehir neresidir? Batman",
+                "Yazar olan sanatçı kimdir? Gönül yazar Asla terlemeyen kurum neresidir? Noter",
+                "En beyaz gezegen hangisi? Ay-Ak",
+                "Arda ismi en çok nerede bulunur. Ardahan",
+                "En iyi atlayan hayvan hangisidir? Atmaca",
+                "Beyaz tenli ve kıllı kişiye ne denir? Akıllı",
+                "Ceylana benzeyen erkek ünlü kimdir? Murat Ceylan",
+                "Dondurmayı kim yalar? Himalayalar",
+                "En fazla eşek nerede bulunur? Spa merkezinde",
+                "Erkek kuşa ne denir? Baykuş",
+                "Giden kuşa ne denir? Baykuş",
+                "Aşçı Ceren’e ne denir? Tenceren",
+                "Osman isminin en yaygın kullanıldığı yer neresidir? Osmaniye",
+                "Lazlar girecek kişiye ne der? Giresun",
+                "En yavaş at hangisidir? Sakatat",
+                "Sürekli sakat olan futbolcu kimdir? Emre Çolak ve Mehmet Topal",
+                "En uzun yaşayan ünlü kimdir? Arif Sağ",
+                "Hiç ıslak olmayan yiyecek hangisidir? Kuru fasulye",
+                "En fazla telefonda araması yapan sanatçı kimdir? Funda Arar",
+                "Ay güneş ışını alırsa ne olur? Kızılay",
+                "İçine 3 harfli kaçmış hayvan hangisidir? Güvercin",
+                "Zorlamayı en çok seven hayvan? Dinozorlar",
+                "Dünyanın en eski şehri neresidir? Eskişehir",
+                "Suyun küçüğüne ne denir? Sucuk denir.",
+                "Don olunca arabaya hangi lastik takılır? Don lastiği",
+                "Kırmızı giyinmeyi seven erkeğe ne denir? Albay",
+                "Pişmemiş burgere ne denir? Hamburger",
+                " Yıkanan tona ne denir? Washington",
+                "Fransızların neyi eksik? FRANları",
+                "Bebeğe tır çarpmış ölmemiş neden? Bezi bariyerliymiş",
+                "Bebeğe patik giydirmeye çalışmışlar giymemiş neden? Çünkü antipatikmiş",
+                "Adamın kafasına radyo düşmüş bir şey olmamış neden? Radyoda hafif müzik çalıyormuş",
+                "Hangi çiçek hem kafaya takılır hem de yıkanır? Fes-leğen",
+                "İshal olmuş böceğe ne denir? Cırcır böceği",
+                "En güzel çay nerede içilir? Çay bar-dağında",
+                "Tuvaletteki 10 a ne denir? Şifon",
+                "Bacaktaki 10 a ne denir? Pantolon",
+                "Fransız ihtilali neye karşı yapıldı? Sabaha karşı",
+                "Erkek ata ne denir? Bayat"
+            ]
+        },
+        {
+            "tag": "soğuk şaka listesi",
+            "patterns": [
+                "soğuk şaka listesi",
+                "tüm soğuk şakalar",
+                "soğuk espri listesi",
+                "tüm soğuk espriler"
+            ],
+            "responses": [
+                "1. Manavda 2 domates var hangisi kovboy? Hiç biri çünkü onlar kızılderili. \n2. Hit parçaların olduğu müzik listesi hangisi? Adolf Hitler. \n3. Dört tarafı suyla çevrili çaya ne denir? Adaçayı \n4. Kenan İmirzalıoğlu’nu ne zamandır tanıyorsun? Ezelden beri \n5. Pitonun gelişmiş haline ne denir? Pitonbir \n6. Hangi yemek mide bulandır? Kuskus \n7. Elma neden diskoya gitmiş? Kurtlarını dökmek için \n8. Patlıcan balona ne söylemiş? Sende Patlıcan \n9. İsli sos hangisidir? Sosis \n10. En ünlü şehir hangisidir? Şanlıurfa \n11. Süper kahramana sahip şehir neresidir? Batman \n12. Yazar olan sanatçı kimdir? Gönül yazar \n13. Asla terlemeyen kurum neresidir? Noter \n14. En beyaz gezegen hangisi? Ay-Ak \n15. Arda ismi en çok nerede bulunur? Ardahan \n16. En iyi atlayan hayvan hangisidir? Atmaca \n17. Beyaz tenli ve kıllı kişiye ne denir? Akıllı \n18. Ceylana benzeyen erkek ünlü kimdir? Murat Ceylan 19. Dondurmayı kim yalar? Himalayalar \n20. En fazla eşek nerede bulunur? Spa merkezinde \n21. Erkek kuşa ne denir? Baykuş \n22. Giden kuşa ne denir? Baykuş \n23. Aşçı Ceren’e ne denir? Tenceren \n24. Osman isminin en yaygın kullanıldığı yer neresidir? Osmaniye \n25. Lazlar girecek kişiye ne der? Giresun \n26. En yavaş at hangisidir? Sakatat \n27. Sürekli sakat olan futbolcu kimdir? Emre Çolak ve Mehmet Topal \n28. En uzun yaşayan ünlü kimdir? Arif Sağ \n29. Hiç ıslak olmayan yiyecek hangisidir? Kuru fasulye \n30. En fazla telefonda araması yapan sanatçı kimdir? Funda Arar \n31. Ay güneş ışını alırsa ne olur? Kızılay \n32. İçine 3 harfli kaçmış hayvan hangisidir Güvercin \n33. Zorlamayı en çok seven hayvan Dinozorlar \n34. Dünyanın en eski şehri neresidir? Eskişehir \n35. Suyun küçüğüne ne denir? Sucuk denir? \n36. Don olunca arabaya hangi lastik takılır? Don lastiği \n37. Kırmızı giyinmeyi seven erkeğe ne denir Albay \n38. Pişmemiş burgere ne denir? Hamburger \n39. Yıkanan tona ne denir? Washington \n40. Fransızların neyi eksik? FRANları \n41. Bebeğe tır çarpmış ölmemiş neden? Bezi bariyerliymiş. \n42. Bebeğe patik giydirmeye çalışmışlar giymemiş neden? Çünkü antipatikmiş \n43. Adamın kafasına radyo düşmüş bir şey olmamış neden? Radyoda hafif müzik çalıyormuş \n44. Hangi çiçek hem kafaya takılır hem de yıkanır? Fes-leğen \n45. İshal olmuş böceğe ne denir? Cırcır böceği \n46. En güzel çay nerede içilir? Çay bar-dağında \n47. Tuvaletteki 10 a ne denir? Şifon \n48. Bacaktaki 10 a ne denir? Pantolon \n49. Fransız ihtilali neye karşı yapıldı? Sabaha karşı \n50. Erkek ata ne denir? Bayat"
+            ]
+        },
+        {
+            "tag": "bir şiir yaz",
+            "patterns": [
+                "bir şiir",
+                "bir şiir yazar mısın",
+                "bir şiir yazabilir misin",
+                "bir şiir yazabiliyor musun",
+                "şiir yazar mısın",
+                "şiir yazabilir misin",
+                "şiir yazabiliyor musun"
+            ],
+            "responses": [
+                "\n<p>Henüz şiir yazamıyorum ama Atilla İlhan'ın bir şiirini sizinle paylaşabilirim.<p>\n<p>BEN SANA MECBURUMB\nBen sana mecburum bilemezsin\n Adını mıh gibi aklımda tutuyorum \nBüyüdükçe büyüyor gözlerin \nBen sana mecburum bilemezsin \nİçimi seninle ısıtıyorum.</p><p>\nAğaçlar sonbahara hazırlanıyor \nBu şehir o eski İstanbul mudur \nKaranlıkta bulutlar parçalanıyor \nSokak lambaları birden yanıyor \n Kaldırımlarda yağmur kokusu \nBen sana mecburum sen yoksun. </p><p>\nSevmek kimi zaman rezilce korkuludur \nİnsan bir akşam üstü ansızın yorulur \nTutsak ustura ağzında yaşamaktan \nKimi zaman ellerini kırar tutkusu \nBir kaç hayat çıkarır yaşamasından \nHangi kapıyı çalsa kimi zaman \nArkasında yalnızlığın hınzır uğultusu </p><p>\nFatih'te yoksul bir gramofon çalıyor \nEski zamanlardan bir cuma çalıyor \nDurup köşe başında deliksiz dinlesem \nSana kullanılmamış bir gök getirsem \nHaftalar ellerimde ufalanıyor \nNe yapsam  ne tutsam nereye gitsem \nBen sana mecburum sen yoksun. </p><p>\nBelki haziran  da mavi benekli çocuksun \nAh seni bilmiyor kimseler bilmiyor \nBir şilep sızıyor ıssız gözlerinden \nBelki Yeşilköy'de uçağa biniyorsun \nBütün ıslanmışsın tüylerin ürperiyor \nBelki körsün kırılmışsın telaş içindesin \nKötü rüzgar saçlarını götürüyor </p><p>\nNe vakit bir yaşamak düşünsem \nBu kurtlar sofrasında belki zor \nAyıpsız   fakat ellerimizi kirletmeden \nNe vakit bir yaşamak düşünsem \nSus deyip adınla başlıyorum \nİçim sıra kımıldıyor gizli denizlerin \nHayır başka türlü olmayacak \nBen sana mecburum bilemezsin.</p>"
+            ]
+        }
+    ]
+}
