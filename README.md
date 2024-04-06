@@ -20,7 +20,7 @@ Aşağıdaki komutlarla repoyu klonlayın, bağımlılıkları yükleyin ve  mod
 ````bash
 git clone https://github.com/matrixportal/chatbot.git
 cd chatbot
-python pip install -r requirements.txt
+pip install -r requirements.txt
 python train.py
 ````
 Chatbotla komut satırında sohbet etmek için aşağıdaki komutu kullanabilirsiniz:
