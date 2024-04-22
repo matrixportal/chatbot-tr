@@ -1,4 +1,4 @@
-# chatbot
+# chatbot-tr
 Bu proje basit bir Chatbot projesidir. Projenin gelişimine katkı sağlayabilir veya klonlayabilirsiniz. Kurulum adımlarını takip ederek kolayca çalıştırabilirsiniz. 
 
 Bağımlılıklar:
@@ -13,12 +13,12 @@ Sanal alan oluşturma:
 Tercihen conda ile bir sanal alan oluşturabilirsiniz:.
 
 ````bash
-conda create -n chatbot python=3.8
-conda activate chatbot
+conda create -n chatbot-tr python=3.8
+conda activate chatbot-tr
 ````
 Aşağıdaki komutlarla repoyu klonlayın, bağımlılıkları yükleyin ve  model verillerini yükleyin.
 ````bash
-git clone https://github.com/matrixportal/chatbot.git
+git clone [https://github.com/matrixportal/chatbot-tr.git](https://github.com/matrixportal/chatbot-tr.git)
 cd chatbot
 pip install -r requirements.txt
 python train.py
