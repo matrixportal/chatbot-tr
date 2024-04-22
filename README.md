@@ -18,7 +18,8 @@ conda activate chatbot-tr
 ````
 Aşağıdaki komutlarla repoyu klonlayın, bağımlılıkları yükleyin ve  model verillerini yükleyin.
 ````bash
-git clone [https://github.com/matrixportal/chatbot-tr.git](https://github.com/matrixportal/chatbot-tr.git)
+git clone
+https://github.com/matrixportal/chatbot-tr.git
 cd chatbot
 pip install -r requirements.txt
 python train.py
